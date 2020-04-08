@@ -1,7 +1,9 @@
+/* eslint-disable jsx-a11y/alt-text */
 import React from 'react'
 import ReactDOM from 'react-dom'
+import Card from './components/Card';
+import 'bootstrap/dist/css/bootstrap.css'
 
-const element = <h1>hola mundo</h1>
 const container = document.getElementById('root')
 
-ReactDOM.render(element, container)
+ReactDOM.render(<Card />, container)
